@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1100px;
+  padding: 80px 0;
+  margin: auto;
+  border: 1px solid;
+}
+
+.navbar__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 38px;
+}
+.navbar__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: gray;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 300px;
+  padding: 32px;
+  border-radius: 16px;
+  background: #f7f7f7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.card__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: rgb(240, 145, 12);
+}
+.card_text_div {
+  display: flex;
+  gap: 8px;
+}
+.card__text {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: rgb(240, 145, 12);
+}
+.card__text1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: grey;
+}
+.card__text2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+}
+.card__text3 {
+  text-align: center;
+  text-decoration: line-through;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: grey;
+}
+.card button {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid rgb(240, 145, 12);
+  color: #f0910c;
+}
+
+.card2 {
+  width: 300px;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #2a2a44;
+  position: relative;
+}
+.card2__top {
+  position: absolute;
+  top: -20px;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f0910c;
+}
+.card2__title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: white;
+}
+.card2_text_div {
+  display: flex;
+  gap: 8px;
+}
+.card2__text {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  color: rgb(240, 145, 12);
+}
+.card2__text1 {
+  font-family: "Montserrat";
+  font-weight: 600px;
+  font-size: 16px;
+  color: grey;
+}
+.card2__text2 {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 14px;
+  color: white;
+}
+.card2 button {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid rgb(240, 145, 12);
+  color: white;
+  background-color: #f0910c;
+}/*# sourceMappingURL=stayl.css.map */
